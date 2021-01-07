@@ -1,2 +1,0 @@
-# TutoPixel
-Site en maintenance
