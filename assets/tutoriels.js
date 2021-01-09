@@ -8,13 +8,13 @@ var ctx = document.getElementById("myBarChart");
 var myLineChart = new Chart(ctx, {
   type: "bar",
   data: {
-    labels: ["22/12"],
+    labels: ["22/12","09/01"],
     datasets: [
       {
         label: "Tutoriels",
         backgroundColor: "rgba(2,117,216,1)",
         borderColor: "rgba(2,117,216,1)",
-        data: [1],
+        data: [1,4],
       },
     ],
   },
@@ -37,7 +37,7 @@ var myLineChart = new Chart(ctx, {
         {
           ticks: {
             min: 0,
-            max: 4,
+            max: 5,
             maxTicksLimit: 5,
           },
           gridLines: {
